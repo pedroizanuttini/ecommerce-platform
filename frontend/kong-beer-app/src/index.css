@@ -1,0 +1,47 @@
+/* importación de fuentes */
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+  --primary-color: #f7b035;
+  --secondary-color: #256b3e;
+  --tertiary-color: #000000;
+  --body-bg-color: #1d1d1d;
+  --border-color: #555555;
+  --success-color: #4F8A10;
+  --warning-color: #9F6000;
+  --error-color: #D8000C;
+  --just-white: #ffffff;
+}
+
+/* CSS de reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--body-bg-color);
+}
+
+button,
+input,
+textarea {
+  /* los botones, inputs y text area no heredan la fuente del body */
+  font-family: 'Mulish', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.min-screen{
+  min-height: calc(100vh - 160px);
+}

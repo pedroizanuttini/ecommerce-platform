@@ -1,0 +1,41 @@
+button{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.button{
+    font-size: 1.125rem; /* 18px */
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.button--square{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+.button-primary:hover{
+    background-color: var(--tertiary-color);
+    color: var(--just-white);
+}
+
+
+.button-secondary{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}

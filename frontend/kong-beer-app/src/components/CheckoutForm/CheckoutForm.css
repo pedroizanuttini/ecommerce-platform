@@ -1,0 +1,54 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    color: var(--just-white);
+    padding: 10px;
+    width: 100%;
+}
+
+.form-group__error{
+    color: var(--error-color) !important;
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+}
+
+
+.form-container{
+    max-width: 500px;
+    padding: 2rem 1.4rem;
+    margin: 30px auto;
+}
+
+
+.form-group_controls{
+    width:100%;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 1px;
+    margin-bottom: 16px;
+    border: 1px, solid, #1f53c5;
+    font-size: 18px;
+}
+
+.processing-message{
+  font-size: 24px;
+  color: #333; 
+  text-align: center;
+  padding: 20px;
+  color: #ffeb3b;  
+  margin-top: 20px;
+}
+
+.error-message{
+  font-size: 24px;
+  color: #333; 
+  text-align: center;
+  padding: 20px;
+  color: #ffeb3b;  
+  margin-top: 20px;
+}
+
+
+
+

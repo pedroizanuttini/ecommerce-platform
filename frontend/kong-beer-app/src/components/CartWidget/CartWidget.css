@@ -1,0 +1,23 @@
+.cartwidget{
+    position: relative;
+}
+
+.cardwidget__qty{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--just-white);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.cardwidget__qty span{
+    font-size: 16px;
+    font-weight: 700;
+}
+

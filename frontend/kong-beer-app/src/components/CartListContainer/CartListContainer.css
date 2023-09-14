@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+    padding: 40px 20px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+.cart-container{
+    width: 90vw;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .cart .cart-title{
+    text-align: center;
+  }
+

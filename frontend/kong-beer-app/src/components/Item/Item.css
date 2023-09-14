@@ -1,0 +1,19 @@
+.product-card {
+    text-align: center;
+    width: 320px;
+}
+
+.product-card__image {
+    width: 320px;
+    height: 306px;
+    object-fit: contain;
+}
+
+.product-card__name {
+    font-size: 1.4rem;
+}
+
+.product-card {
+    text-decoration: none;
+    color: var(--just-white);
+}
